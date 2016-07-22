@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C43C882-0A2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppVeyorDemo", "src\AppVeyorDemo\AppVeyorDemo.csproj", "{19AA1D95-99EC-4472-A1F2-E978D652E815}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B9027E72-8B85-4F20-A722-7A200B9A4737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppVeyorDemoTests", "test\AppVeyorDemoTests\AppVeyorDemoTests.csproj", "{1C7AD822-2B6D-40DD-A3F5-E38A0C66DD2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{19AA1D95-99EC-4472-A1F2-E978D652E815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19AA1D95-99EC-4472-A1F2-E978D652E815}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19AA1D95-99EC-4472-A1F2-E978D652E815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7AD822-2B6D-40DD-A3F5-E38A0C66DD2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7AD822-2B6D-40DD-A3F5-E38A0C66DD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7AD822-2B6D-40DD-A3F5-E38A0C66DD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7AD822-2B6D-40DD-A3F5-E38A0C66DD2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{19AA1D95-99EC-4472-A1F2-E978D652E815} = {6C43C882-0A23-4A82-95A3-19531E17DDED}
+		{1C7AD822-2B6D-40DD-A3F5-E38A0C66DD2F} = {B9027E72-8B85-4F20-A722-7A200B9A4737}
 	EndGlobalSection
 EndGlobal
