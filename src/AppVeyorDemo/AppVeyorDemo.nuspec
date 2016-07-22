@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Brief AppVeyor Demo</title>
+    <authors>jeremymeng</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A short description</description>
+    <releaseNotes>v1.0 Initial Release
+</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>demo</tags>
+  </metadata>
+</package>
