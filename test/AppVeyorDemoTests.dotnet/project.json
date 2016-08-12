@@ -1,13 +1,29 @@
 {
   "version": "1.0.0-*",
   "testRunner": "xunit",
+
+  "buildOptions": {
+    "compile": {
+      "include": [ "../AppVeyorDemoTests/**/*.cs" ]
+    },
+    "define": [ "DEBUG", "TRACE" ]
+  },
+
   "dependencies": {
     "xunit": "2.2.0-beta2-build3300",
     "dotnet-test-xunit": "2.2.0-preview2-build1029",
-    "AppVeyorDemo.dotnet": { "target": "project", "version": "" },
+    "AppVeyorDemo.dotnet": {
+      "target": "project",
+      "version": ""
+    }
   },
 
   "frameworks": {
+    "net451": {
+      "dependencies": {
+        "Microsoft.NETCore.Platforms": "1.0.1"
+      }
+    },
     "netcoreapp1.0": {
       "dependencies": {
         "Microsoft.NETCore.App": {
@@ -15,13 +31,7 @@
           "version": "1.0.0"
         }
       },
-      "imports": [ "dnxcore50", "portable-net45+win8" ],
-      "buildOptions": {
-        "compile": {
-          "include": [ "../AppVeyorDemoTests/**/*.cs" ]
-        },
-        "define": [ "DEBUG", "TRACE" ]
-      }
+      "imports": [ "dnxcore50", "portable-net45+win8" ]
     }
   }
 }
