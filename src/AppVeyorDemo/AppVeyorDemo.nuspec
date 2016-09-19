@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AppVeyorDemo</id>
+    <version>1.0.0</version>
+    <authors>yumeng</authors>
+    <owners>yumeng</owners>
+    <licenseUrl>https://github.com/jeremymeng/AppVeyorDemo.git</licenseUrl>
+    <projectUrl>https://github.com/jeremymeng/AppVeyorDemo.git</projectUrl>
+    <iconUrl>https://github.com/jeremymeng/AppVeyorDemo.git</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package description</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Tag1 Tag2</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>
